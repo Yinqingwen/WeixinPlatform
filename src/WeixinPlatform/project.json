@@ -34,7 +34,11 @@
   },
 
   "frameworks": {
-    "dnx451": { },
+    "dnx451": {
+      "dependencies": {
+        "Weixin": "1.0.0-*"
+      }
+    },
     "dnxcore50": { }
   },
 

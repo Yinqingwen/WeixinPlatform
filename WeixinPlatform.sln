@@ -12,6 +12,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "WeixinPlatform", "src\WeixinPlatform\WeixinPlatform.xproj", "{1F81DF8D-81E4-474A-804F-B0057A22A8C9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WeixinLib", "WeixinLib", "{E476D43C-B8E7-4C9B-BD7D-FB20D7787F06}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Weixin", "src\Weixin\Weixin.xproj", "{66F9D038-B11C-4807-994F-2AAD143924ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,11 +26,17 @@ Global
 		{1F81DF8D-81E4-474A-804F-B0057A22A8C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F81DF8D-81E4-474A-804F-B0057A22A8C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F81DF8D-81E4-474A-804F-B0057A22A8C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66F9D038-B11C-4807-994F-2AAD143924ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66F9D038-B11C-4807-994F-2AAD143924ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66F9D038-B11C-4807-994F-2AAD143924ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66F9D038-B11C-4807-994F-2AAD143924ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{1F81DF8D-81E4-474A-804F-B0057A22A8C9} = {7E7D0B3B-EB69-4669-AC20-9A1CD8DF5CE1}
+		{E476D43C-B8E7-4C9B-BD7D-FB20D7787F06} = {7E7D0B3B-EB69-4669-AC20-9A1CD8DF5CE1}
+		{66F9D038-B11C-4807-994F-2AAD143924ED} = {E476D43C-B8E7-4C9B-BD7D-FB20D7787F06}
 	EndGlobalSection
 EndGlobal
