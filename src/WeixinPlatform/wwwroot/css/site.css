@@ -32,3 +32,22 @@ textarea {
         z-index: 10 !important;
     }
 }
+
+#leftcontent,#rightcontent{
+    padding:0;
+}
+
+#leftcontent>div, #rightcontent>div{
+    padding:5px;
+    border:solid 1px #0dc;
+    border-radius:0 5px 5px 0;
+    margin:0 5px 5px 0;
+}
+
+    #rightcontent > div {
+        border-radius:5px;
+    }
+
+fieldset .form-group{
+    border:solid 1px #ccc;
+}
