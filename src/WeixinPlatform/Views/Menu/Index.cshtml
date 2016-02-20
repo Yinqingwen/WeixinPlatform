@@ -8,8 +8,8 @@
         <div>
             <p><label class="control-label">获取AccessToken</label></p>
             <div class="form-group form-group-sm">
-                <label for="inputAppId" class="col-sm-2 control-label">AppId:</label>
-                <div class="col-sm-10">
+                <label for="inputAppId" class="col-xs-2 col-sm-2 col-mx-2 col-lg-2 control-label">AppId:</label>
+                <div class="col-xs10 col-sm-10 col-mx-10 col-lg-10">
                     <input type="text" class="form-control" id="inputAppId" name="inputAppId" placeholder="AppId">
                 </div>
             </div>
@@ -25,7 +25,7 @@
             <p>2.这里的Token已经使用AccessTokenContainer管理起来，有效期内不会重复获取，过了有效期自动获取。也就是说如果已经在本网页上获取一次，接下去只需要提供AppId即可（直到服务器重启或列队过长被清理）</p>
             <p>或：</p>
             <p><label class="control-label">我有当前可用Token</label></p>
-            <div class="form-group">
+            <div class="form-group form-group-sm">
                 <label for="inputToken" class="col-sm-2 control-label">Token:</label>
                 <div class="col-sm-10">
                     <input type="text" class="form-control" id="inputToken" name="inputToken" placeholder="Token">
