@@ -38,7 +38,8 @@
       "dependencies": {
         "Weixin": "1.0.0-*",
         "Weixin.MP": "1.0.0-*",
-        "Weixin.Open": "1.0.0-*"
+        "Weixin.Open": "1.0.0-*",
+        "Weixin.QY": "1.0.0-*"
       }
     },
     "dnxcore50": { }

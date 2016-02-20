@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0-*",
+  "description": "Weixin.QY Class Library",
+  "authors": [ "Yinqingwen" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "frameworks": {
+    "net451": {
+      "dependencies": {
+        "Weixin": "1.0.0-*"
+      }
+    }
+  }
+}
