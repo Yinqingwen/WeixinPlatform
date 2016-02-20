@@ -1,0 +1,13 @@
+version: 1.0.{build}
+os:
+- Windows Server 2012 R2
+- Visual Studio 2015 RC
+install:
+- cmd: >-
+    dnvm upgrade -r clr
+
+    dnu restore
+build:
+  project: WeixinPlatform.sln
+  publish_wap: true
+  verbosity: detailed
