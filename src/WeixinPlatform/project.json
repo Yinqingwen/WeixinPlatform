@@ -19,7 +19,7 @@
     "Microsoft.AspNet.StaticFiles": "1.0.0-rc1-final",
     "Microsoft.AspNet.Tooling.Razor": "1.0.0-rc1-final",
     "Microsoft.Extensions.CodeGenerators.Mvc": "1.0.0-rc1-final",
-    "Microsoft.Extensions.Configuration.FileProviderExtensions" : "1.0.0-rc1-final",
+    "Microsoft.Extensions.Configuration.FileProviderExtensions": "1.0.0-rc1-final",
     "Microsoft.Extensions.Configuration.Json": "1.0.0-rc1-final",
     "Microsoft.Extensions.Configuration.UserSecrets": "1.0.0-rc1-final",
     "Microsoft.Extensions.Logging": "1.0.0-rc1-final",
@@ -38,6 +38,7 @@
       "dependencies": {
         "Weixin": "1.0.0-*",
         "Weixin.MP": "1.0.0-*",
+        "Weixin.MP.MvcExtension": "1.0.0-*",
         "Weixin.Open": "1.0.0-*",
         "Weixin.QY": "1.0.0-*"
       }
