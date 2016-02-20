@@ -1,4 +1,4 @@
-﻿{
+{
   "userSecretsId": "aspnet5-WeixinPlatform-f54a6434-1a1d-48c0-8449-92ea5d8d50be",
   "version": "1.0.0-*",
   "compilationOptions": {
@@ -36,7 +36,8 @@
   "frameworks": {
     "dnx451": {
       "dependencies": {
-        "Weixin": "1.0.0-*"
+        "Weixin": "1.0.0-*",
+        "Weixin.MP": "1.0.0-*"
       }
     },
     "dnxcore50": { }
